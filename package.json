@@ -1,0 +1,22 @@
+{
+  "name": "fb-crud-ad-campaign-node-express",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham14p3/fb-crud-ad-campaign-node-express.git"
+  },
+  "author": "Shubham Raj  <shubham14p3@gmail.com> (http://shubhamraj.dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham14p3/fb-crud-ad-campaign-node-express/issues"
+  },
+  "homepage": "https://github.com/shubham14p3/fb-crud-ad-campaign-node-express#readme",
+  "dependencies": {
+    "facebook-nodejs-business-sdk": "^6.0.2"
+  }
+}
