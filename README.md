@@ -1,57 +1,79 @@
-# Project Name
+# Facebook Ad Campaign
 
-> One paragraph statement about the project.
+An Facebook Ad Campaign where we need to create campaingn and apply CRUD with expressJS. Our goal is to create, read, update and delete ad campaign in Facebook ad manager.
 
-![screenshot](./app_screenshot.png)
+1. Created Two Campaigns 
 
-Additional description about the project and its features.
+![screenshot](./images/TwoReviews.PNG)
+
+2. Running Campaign Locally 
+
+![screenshot](./images/campaign.PNG)
+
+3. Fetching Campaigns 
+
+![screenshot](./images/Getting.PNG)
+
+4. Getting Campaigns with ID
+
+![screenshot](./images/Get.PNG)
+
+5. Deleting an Campaigns 
+
+![screenshot](./images/Delete.PNG)
+
+
+Before you could proceed you need to go through the below requirements.
+
+# Features
+
+-   Inline Code API
+-   Using of Postman for fetting the Calls for CRUD 
+
+# Installation
+
+## Before you install
+
+1. Make sure nodejs and npm is installed if not run the following command (npm install npm -g) for windows 
+2. For Windows OS follow the nodejs installer
+3. Make Sure you have Postman App or USe CURL whichever you feel comfortable.
+
+## To get a local copy up and running follow these simple steps.
+
+git clone https://github.com/shubham14p3/fb-crud-ad-campaign-node-express.git
+
+## Install Packages
+
+Run the following code : npm install
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- NodeJS,
+- Express,
+- POSTMAN
+- FB SDK
+- NPM
 
-## Live Demo
+## Running Test Cases
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+1. nmp start
+2. Go to browser or Postman : localhost:3000 to check the npm is working or not
+3. localhost:3000/campaign to get campaign
+4. localhost:3000/campaign/ID to get details
+5. Use Postman or Curl to use CRUD 
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+1. Remeber to get the [Access Token](https://developers.facebook.com/tools/explorer/)
+2. Remeber to Get the [Ad Account ID](https://developers.facebook.com/apps/)
+3. Place it into the Json fine
 
 ## Authors
 
-👤 **Author1**
+👤 **Shubham Raj**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Shubham Raj](https://github.com/shubham14p3)
+- Linkedin: [Shubham Raj](https://linkedin.com/in/shubham14p3)
 
 ## 🤝 Contributing
 
@@ -65,9 +87,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- https://developers.facebook.com/docs/graph-api/reference/user/
+- https://developers.facebook.com/docs/graph-api/using-graph-api/error-handling/
+- https://developers.facebook.com/docs/marketing-api/error-reference
 
 ## 📝 License
 
