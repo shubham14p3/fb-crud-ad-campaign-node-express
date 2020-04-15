@@ -1,0 +1,4 @@
+{
+    "ad_account_id": "act_<ad_account_id>",
+    "access_token": "<access_token from Graph>"
+}
