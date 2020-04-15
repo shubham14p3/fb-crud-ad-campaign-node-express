@@ -1,10 +1,11 @@
 {
   "name": "fb-crud-ad-campaign-node-express",
   "version": "1.0.0",
-  "description": "> Facebook Ad Campaign on Node with CURD",
+  "description": "Facebook Ad Campaign with CURD in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/shubham14p3/fb-crud-ad-campaign-node-express#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "facebook-nodejs-business-sdk": "^6.0.2"
   }
 }
