@@ -1,7 +1,7 @@
 {
   "name": "fb-crud-ad-campaign-node-express",
   "version": "1.0.0",
-  "description": "> One paragraph statement about the project.",
+  "description": "> Facebook Ad Campaign on Node with CURD",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

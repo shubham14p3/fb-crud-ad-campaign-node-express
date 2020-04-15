@@ -1,4 +1,4 @@
 {
-    "ad_account_id": "something",
-    "access_token": "something"
+    "ad_account_id": "<ad_account_id>",
+    "access_token": "<access_token from Graph>"
 }
